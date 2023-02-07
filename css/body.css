@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+    background-color: rgb(238,241,246);
+}
+#header, #foot{
+    height: 100px;
+    background-color: rgb(255,255,255);
+}
+#header{
+    margin-bottom: 20px;
+}
+#foot{
+    margin-top: 20px;
+}
+#middle{
+    display: flex;
+    height: 1000px;
+}
+.nav{
+    width: 200px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: rgb(255,255,255);
+}
+#content{
+    flex: 1;
+}
