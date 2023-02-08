@@ -9,24 +9,24 @@
     font-size: 20px;
     outline: none;
 }
-.nav>.dropdown-box1, .nav>.nav_dropdown-box2{
+nav .dropdown-box1, nav .nav_dropdown-box2{
     display: none;
     background-color: rgb(255,255,255);
     padding-left: 8px;
   }
-.nav ul{
+nav ul{
     width: 180px;
     margin-left: 10px;
     margin-top: 10px;
     list-style: none;
     text-align: center;
 }
-.nav li{
+nav li{
     line-height: 4em;
     font-size: 16px;
     color: rgb(139,148,158);
 }
-.nav li:hover, .nav_dropdown1:hover,
+nav li:hover, .nav_dropdown1:hover,
 .nav_dropdown2:hover{
     border-radius: 10px;
     background-color: rgb(238,241,246);

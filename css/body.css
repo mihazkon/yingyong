@@ -6,26 +6,26 @@ html, body{
     height: 100%;
     background-color: rgb(238,241,246);
 }
-#header, #foot{
-    height: 100px;
+header{
+    height: 60px;
     background-color: rgb(255,255,255);
 }
-#header{
-    margin-bottom: 20px;
+footer{
+    height: 200px;
+    background-color: rgb(255,255,255);
+    transform: translateY(40px);
 }
-#foot{
-    margin-top: 20px;
-}
-#middle{
+section{
     display: flex;
     height: 1000px;
+    transform: translateY(20px);
 }
-.nav{
+nav{
     width: 200px;
-    margin-right: 20px;
     border-radius: 10px;
     background-color: rgb(255,255,255);
 }
 #content{
+    transform: translateX(20px);
     flex: 1;
 }
