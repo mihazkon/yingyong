@@ -1,4 +1,4 @@
-var lis = document.querySelectorAll('.nav li');
+var lis = document.querySelectorAll('nav li');
 var items = document.querySelectorAll(".item");
     for(var i = 0; i < lis.length; i++){
         lis[i].setAttribute("index", i);
