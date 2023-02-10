@@ -17,11 +17,12 @@ footer{
 }
 section{
     display: flex;
-    height: 1000px;
+    flex: 1;
     transform: translateY(20px);
 }
 nav{
     width: 200px;
+    height: 900px;
     border-radius: 10px;
     background-color: rgb(255,255,255);
 }

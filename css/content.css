@@ -1,27 +1,30 @@
 #content .item, #content .c-2{
     display: none;
 }
-#content .item>.te{
+/* box-1 */
+#content .box-1{
+    display: flex;
+    flex-wrap: wrap;
+}
+#content .box-1>span{
+    width: 100%;
     display: block;
     font-size: 24px;
     margin-bottom: 20px;
 }
-#content .box-1{
-    float: left;
-}
 #content .box-b1{
-    width: 1000px;
     height: 180px;
     background-color: rgb(255,255,255);
     border-radius: 10px;
     margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 #content .box-b1 div{
     width: 140px;
     height: 80px;
-    margin: 50px 20px 0px;
     border-radius: 10px;
-    display: inline-block;
     background-color: rgb(238,241,246);
 }
 #content .b-1:hover{
@@ -37,28 +40,37 @@
     font-size: 20px;
 }
 #content .box-c1{
-
+    width: 1000px;
+    height: 600px;
     border-radius: 10px;
     background-color: rgb(255,255,255);
 }
-#chart1, #chart2, #chart3, #chart4, #chart5{
+.box-c1 .c-2 div{ 
     width: 1000px;
     height: 600px;
 }
 #content .details-box{
-    width: 600px;
+    width: 650px;
     height: 790px;
     margin-left: 10px;
     border-radius: 10px;
-    float: left;
     background-color: rgb(255,255,255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
-#content .details-box .search{
+#content .details-box .title{
+    display: flex;
+}
+#content .title>span{
+    font-size: 20px;
+}
+#content .title .search{
     width: 200px;
     height: 30px;
     outline: none;
     font-size: 18px;
-    margin: 20px 10px 10px 340px;
     padding-left: 20px;
     border: 2px solid rgb(238,241,246);
     border-radius: 5px;
@@ -66,13 +78,12 @@
     background-size: 16px;
 }
 .details-box .ls{
-    width: 580px;
+    width: 630px;
     height: calc(100% - 75px);
-    margin-left: 10px;
     border-radius: 10px;
     background-color: rgb(238,241,246);
 }
-#content .box-2{
+/* #content .box-2{
     float: left;
 }
 #content .calendar-box, #content .case-box{
@@ -118,4 +129,4 @@
     margin-left: 10px;
     border-radius: 10px;
     background: rgb(255,255,255);
-}
+} */
